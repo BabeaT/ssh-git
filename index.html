@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEON DISTRICT // 霓虹区</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 扫描线效果 -->
+    <div class="scanlines"></div>
+    
+    <!-- 网格背景 -->
+    <div class="grid-bg"></div>
+    
+    <!-- 粒子效果容器 -->
+    <div class="particles" id="particles"></div>
+
+    <!-- 导航栏 -->
+    <nav class="cyber-nav">
+        <div class="nav-glitch" data-text="NEON//DISTRICT">NEON//DISTRICT</div>
+        <div class="nav-links">
+            <a href="#home" class="nav-link" data-text="首页">首页</a>
+            <a href="#about" class="nav-link" data-text="关于">关于</a>
+            <a href="#services" class="nav-link" data-text="服务">服务</a>
+            <a href="#contact" class="nav-link" data-text="联系">联系</a>
+        </div>
+        <div class="nav-status">
+            <span class="status-dot"></span>
+            <span class="status-text">ONLINE</span>
+        </div>
+    </nav>
+
+    <!-- 主要区域 -->
+    <main>
+        <!-- Hero 区域 -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-badge">[ SYSTEM v2.0.77 ]</div>
+                <h1 class="glitch-text" data-text="欢迎来到未来">欢迎来到未来</h1>
+                <h2 class="hero-subtitle">
+                    <span class="typing-text"></span>
+                    <span class="cursor">|</span>
+                </h2>
+                <p class="hero-desc">在霓虹灯闪烁的数字世界中，探索无限可能。这里是科技与梦想交汇的赛博空间。</p>
+                <div class="hero-buttons">
+                    <button class="cyber-btn primary">
+                        <span class="btn-content">进入系统</span>
+                        <span class="btn-glitch"></span>
+                        <span class="btn-corner tl"></span>
+                        <span class="btn-corner tr"></span>
+                        <span class="btn-corner bl"></span>
+                        <span class="btn-corner br"></span>
+                    </button>
+                    <button class="cyber-btn secondary">
+                        <span class="btn-content">了解更多</span>
+                        <span class="btn-glitch"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hologram">
+                    <div class="hologram-ring ring-1"></div>
+                    <div class="hologram-ring ring-2"></div>
+                    <div class="hologram-ring ring-3"></div>
+                    <div class="hologram-core"></div>
+                    <div class="hologram-data">
+                        <div class="data-line"></div>
+                        <div class="data-line"></div>
+                        <div class="data-line"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 关于区域 -->
+        <section id="about" class="about-section">
+            <div class="section-header">
+                <span class="section-tag">&lt;SECTION_02&gt;</span>
+                <h2 class="section-title glitch-text" data-text="关于我们">关于我们</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="terminal-window">
+                        <div class="terminal-header">
+                            <span class="terminal-dot red"></span>
+                            <span class="terminal-dot yellow"></span>
+                            <span class="terminal-dot green"></span>
+                            <span class="terminal-title">system://about.exe</span>
+                        </div>
+                        <div class="terminal-body">
+                            <p class="terminal-line"><span class="prompt">></span> 初始化系统...</p>
+                            <p class="terminal-line"><span class="prompt">></span> 加载核心模块...</p>
+                            <p class="terminal-line"><span class="prompt">></span> 连接神经网络...</p>
+                            <p class="terminal-line success"><span class="prompt">></span> 连接成功!</p>
+                            <br>
+                            <p class="terminal-line">我们是数字时代的先驱者，致力于将科幻变为现实。</p>
+                            <p class="terminal-line">在这个充满可能性的赛博世界中，我们构建着明天。</p>
+                            <p class="terminal-line">代码是我们的语言，创新是我们的信仰。</p>
+                            <p class="terminal-line blink">_</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="2077">0</div>
+                        <div class="stat-label">代码行数</div>
+                        <div class="stat-bar"><div class="stat-fill" style="--fill: 85%"></div></div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="99">0</div>
+                        <div class="stat-label">系统稳定性 %</div>
+                        <div class="stat-bar"><div class="stat-fill" style="--fill: 99%"></div></div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="24">0</div>
+                        <div class="stat-label">在线小时</div>
+                        <div class="stat-bar"><div class="stat-fill" style="--fill: 100%"></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 服务区域 -->
+        <section id="services" class="services-section">
+            <div class="section-header">
+                <span class="section-tag">&lt;SECTION_03&gt;</span>
+                <h2 class="section-title glitch-text" data-text="核心服务">核心服务</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 17l10 5 10-5"/>
+                            <path d="M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">神经接口</h3>
+                    <p class="card-desc">直连大脑的数字体验，打破虚拟与现实的边界</p>
+                    <div class="card-code">NFT-001</div>
+                    <div class="card-border"></div>
+                </div>
+                <div class="service-card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="3"/>
+                            <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">量子加密</h3>
+                    <p class="card-desc">不可破解的安全协议，守护你的数字身份</p>
+                    <div class="card-code">QE-002</div>
+                    <div class="card-border"></div>
+                </div>
+                <div class="service-card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="4" y="4" width="16" height="16" rx="2"/>
+                            <path d="M9 9h6M9 12h6M9 15h4"/>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">数据矩阵</h3>
+                    <p class="card-desc">实时数据流处理，洞察一切可能</p>
+                    <div class="card-code">DM-003</div>
+                    <div class="card-border"></div>
+                </div>
+                <div class="service-card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/>
+                            <path d="M3.27 6.96L12 12.01l8.73-5.05M12 22.08V12"/>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">虚拟现实</h3>
+                    <p class="card-desc">沉浸式虚拟空间，创造无限体验</p>
+                    <div class="card-code">VR-004</div>
+                    <div class="card-border"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 联系区域 -->
+        <section id="contact" class="contact-section">
+            <div class="section-header">
+                <span class="section-tag">&lt;SECTION_04&gt;</span>
+                <h2 class="section-title glitch-text" data-text="建立连接">建立连接</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-content">
+                <form class="cyber-form">
+                    <div class="form-group">
+                        <label class="form-label">代号 //</label>
+                        <input type="text" class="cyber-input" placeholder="输入你的代号...">
+                        <div class="input-line"></div>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">频道 //</label>
+                        <input type="email" class="cyber-input" placeholder="通讯频道地址...">
+                        <div class="input-line"></div>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">信息 //</label>
+                        <textarea class="cyber-input cyber-textarea" placeholder="加密信息内容..."></textarea>
+                        <div class="input-line"></div>
+                    </div>
+                    <button type="submit" class="cyber-btn primary full-width">
+                        <span class="btn-content">[ 发送信号 ]</span>
+                        <span class="btn-glitch"></span>
+                        <span class="btn-corner tl"></span>
+                        <span class="btn-corner tr"></span>
+                        <span class="btn-corner bl"></span>
+                        <span class="btn-corner br"></span>
+                    </button>
+                </form>
+                <div class="contact-info">
+                    <div class="info-block">
+                        <div class="info-icon">⟨⟩</div>
+                        <div class="info-text">
+                            <span class="info-label">位置坐标</span>
+                            <span class="info-value">NEO-TOKYO // 35.6762° N, 139.6503° E</span>
+                        </div>
+                    </div>
+                    <div class="info-block">
+                        <div class="info-icon">◈</div>
+                        <div class="info-text">
+                            <span class="info-label">通讯频段</span>
+                            <span class="info-value">FREQ-2077-ALPHA</span>
+                        </div>
+                    </div>
+                    <div class="info-block">
+                        <div class="info-icon">⬡</div>
+                        <div class="info-text">
+                            <span class="info-label">状态</span>
+                            <span class="info-value online">ACTIVE // 全天候运行</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="cyber-footer">
+        <div class="footer-content">
+            <div class="footer-logo">NEON//DISTRICT</div>
+            <div class="footer-text">© 2077 All rights reserved // 保留所有权利</div>
+            <div class="footer-links">
+                <a href="#" class="footer-link">隐私协议</a>
+                <a href="#" class="footer-link">使用条款</a>
+                <a href="#" class="footer-link">系统状态</a>
+            </div>
+        </div>
+        <div class="footer-glitch"></div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
